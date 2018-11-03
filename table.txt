@@ -1,0 +1,11 @@
+
+SQL> create table employee_details(
+   employee_no varchar2(20),
+   employee_name varchar2(20));
+
+Table created.
+
+SQL> create sequence employee_no_sequence
+   start with 1000;
+
+Sequence created.
